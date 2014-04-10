@@ -51,7 +51,7 @@ KEYMAP = nasa_us.h
 
 
 # MCU name
-MCU = atmega168
+MCU = atmega8
 
 
 # Processor frequency.
