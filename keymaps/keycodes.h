@@ -198,7 +198,7 @@ const unsigned char MStr_parens[] PROGMEM = { 0x80+KEY_9, 0x80+KEY_0, KEY_larr, 
 /************************************************************************************
  * Array of the macro strings. Order must be the same as in the keycodes enum       *
  ************************************************************************************/
-const unsigned char *macro_strings[DIV_Last-DIV_Macro] PROGMEM = {
+PROGMEM const unsigned char * const macro_strings[DIV_Last-DIV_Macro] = {
   MStr_000,
   MStr_00,
   MStr_quotes,
