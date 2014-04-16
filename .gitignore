@@ -1,0 +1,15 @@
+.dep/
+main.eep
+main.elf
+main.hex
+main.lss
+main.lst
+main.map
+main.o
+main.sym
+usbdrv/oddebug.lst
+usbdrv/oddebug.o
+usbdrv/usbdrv.lst
+usbdrv/usbdrv.o
+usbdrv/usbdrvasm.lst
+usbdrv/usbdrvasm.o
