@@ -13,3 +13,4 @@ usbdrv/usbdrv.lst
 usbdrv/usbdrv.o
 usbdrv/usbdrvasm.lst
 usbdrv/usbdrvasm.o
+*.stl
