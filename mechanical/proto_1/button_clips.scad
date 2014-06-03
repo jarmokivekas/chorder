@@ -63,5 +63,5 @@ module button_clips(){
 }
 
 module button_clip_cavity(){
-	translate([0,0,-1]) cylinder(h=clip_height, r=4);
+	translate([0,0,-1]) cylinder(h=clip_height, r=5);
 }

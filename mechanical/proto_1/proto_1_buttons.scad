@@ -3,6 +3,7 @@ use <button_clips.scad>;
 //button_clip_cavity()
 
 import("proto_1_body.stl");
+
 translate([10.9,10.9,0])
 rotate([90,0,-45])
 color("blue", 0.5) buttons();
@@ -21,7 +22,7 @@ module buttons(){
 module button_bodies(){
 	intersection(){
 		linear_extrude(height=10)
-			import("button_shadows.dxf");
+			import("proto_1_button_shadows.dxf");
 		translate([0,0,-15.9])
 		rotate([-90,0,0])
 			cylinder(h=120, r= /*22.5*/ 24);
