@@ -14,3 +14,6 @@ usbdrv/usbdrv.o
 usbdrv/usbdrvasm.lst
 usbdrv/usbdrvasm.o
 *.stl
+*.sublime-project
+*.sublime-workspace
+.b#*
