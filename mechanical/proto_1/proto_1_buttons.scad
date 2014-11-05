@@ -2,11 +2,12 @@ use <button_clips.scad>;
 //button_clips()
 //button_clip_cavity()
 
-import("proto_1_body.stl");
+//import("proto_1_body.stl");
 
-translate([10.9,10.9,0])
-rotate([90,0,-45])
-color("blue", 0.5) buttons();
+//translate([10.9,10.9,0])
+//rotate([90,0,-45])
+//color("blue", 0.5)
+rotate([0,180,0])buttons();
 
 module buttons(){
 	union(){
